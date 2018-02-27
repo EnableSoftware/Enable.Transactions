@@ -1,0 +1,70 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4493BAC9-82CC-4155-A68C-BE1BAEEDD6BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enable.Transactions", "src\Enable.Transactions\Enable.Transactions.csproj", "{30BD7A6D-B5BD-4C3E-9545-61921E364D15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B8330E0F-70E3-4F5E-8CD1-0551185D6B00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enable.Transactions.Tests", "test\Enable.Transactions.Tests\Enable.Transactions.Tests.csproj", "{69DFE51F-6C75-4094-89C6-51A8C88D9BF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE9CCD24-763D-4CD3-AEDC-6BAB2AA76CA8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		CustomExtendedCorrectnessRules.ruleset = CustomExtendedCorrectnessRules.ruleset
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30BD7A6D-B5BD-4C3E-9545-61921E364D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BD7A6D-B5BD-4C3E-9545-61921E364D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BD7A6D-B5BD-4C3E-9545-61921E364D15}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{30BD7A6D-B5BD-4C3E-9545-61921E364D15}.Debug|x64.Build.0 = Debug|Any CPU
+		{30BD7A6D-B5BD-4C3E-9545-61921E364D15}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{30BD7A6D-B5BD-4C3E-9545-61921E364D15}.Debug|x86.Build.0 = Debug|Any CPU
+		{30BD7A6D-B5BD-4C3E-9545-61921E364D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BD7A6D-B5BD-4C3E-9545-61921E364D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30BD7A6D-B5BD-4C3E-9545-61921E364D15}.Release|x64.ActiveCfg = Release|Any CPU
+		{30BD7A6D-B5BD-4C3E-9545-61921E364D15}.Release|x64.Build.0 = Release|Any CPU
+		{30BD7A6D-B5BD-4C3E-9545-61921E364D15}.Release|x86.ActiveCfg = Release|Any CPU
+		{30BD7A6D-B5BD-4C3E-9545-61921E364D15}.Release|x86.Build.0 = Release|Any CPU
+		{69DFE51F-6C75-4094-89C6-51A8C88D9BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DFE51F-6C75-4094-89C6-51A8C88D9BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DFE51F-6C75-4094-89C6-51A8C88D9BF8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{69DFE51F-6C75-4094-89C6-51A8C88D9BF8}.Debug|x64.Build.0 = Debug|Any CPU
+		{69DFE51F-6C75-4094-89C6-51A8C88D9BF8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{69DFE51F-6C75-4094-89C6-51A8C88D9BF8}.Debug|x86.Build.0 = Debug|Any CPU
+		{69DFE51F-6C75-4094-89C6-51A8C88D9BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DFE51F-6C75-4094-89C6-51A8C88D9BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DFE51F-6C75-4094-89C6-51A8C88D9BF8}.Release|x64.ActiveCfg = Release|Any CPU
+		{69DFE51F-6C75-4094-89C6-51A8C88D9BF8}.Release|x64.Build.0 = Release|Any CPU
+		{69DFE51F-6C75-4094-89C6-51A8C88D9BF8}.Release|x86.ActiveCfg = Release|Any CPU
+		{69DFE51F-6C75-4094-89C6-51A8C88D9BF8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30BD7A6D-B5BD-4C3E-9545-61921E364D15} = {4493BAC9-82CC-4155-A68C-BE1BAEEDD6BB}
+		{69DFE51F-6C75-4094-89C6-51A8C88D9BF8} = {B8330E0F-70E3-4F5E-8CD1-0551185D6B00}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2A20BD0-98D3-4938-BE2A-1B969855E392}
+	EndGlobalSection
+EndGlobal
