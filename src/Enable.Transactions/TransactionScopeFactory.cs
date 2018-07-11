@@ -11,7 +11,7 @@ namespace Enable.Transactions
         {
             var options = default(TransactionOptions);
             options.IsolationLevel = IsolationLevel.ReadCommitted;
-            options.Timeout = TimeSpan.Zero;
+            options.Timeout = TransactionManager.DefaultTimeout;
 
             return new MockableTransactionScope(scopeOption, options, asyncFlowOption);
         }
