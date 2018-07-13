@@ -8,14 +8,21 @@ namespace Enable.Transactions
         private readonly TransactionScope _transactionScope;
 
         public MockableTransactionScope(
-            TransactionScopeOption scopeOption,
-            TransactionOptions options,
-            TransactionScopeAsyncFlowOption asyncFlowOption)
+            TransactionScopeOptions scopeOptions)
         {
+            if (scopeOptions == null)
+            {
+                throw new ArgumentNullException(nameof(scopeOptions));
+            }
+
+            var options = default(TransactionOptions);
+            options.IsolationLevel = scopeOptions.IsolationLevel;
+            options.Timeout = scopeOptions.ScopeTimeout;
+
             _transactionScope = new TransactionScope(
-                scopeOption,
+                scopeOptions.ScopeOption,
                 options,
-                asyncFlowOption);
+                scopeOptions.AsyncFlowOption);
         }
 
         public void Complete()

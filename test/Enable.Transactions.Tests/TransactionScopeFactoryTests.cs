@@ -2,10 +2,10 @@
 
 namespace Enable.Transactions
 {
-    public class TransactionScopeFactoryTests
+    public static class TransactionScopeFactoryTests
     {
         [Fact]
-        public void CanCreateTransactionScope()
+        public static void CanCreateTransactionScope()
         {
             var sut = new TransactionScopeFactory();
 
@@ -15,11 +15,24 @@ namespace Enable.Transactions
         }
 
         [Fact]
-        public void CanCompleteTransactionScope()
+        public static void CanCompleteTransactionScope()
         {
             var sut = new TransactionScopeFactory();
 
             using (var transaction = sut.CreateTransactionScope())
+            {
+                transaction.Complete();
+            }
+        }
+
+        [Fact]
+        public static void CanSpecifyTransactionScopeOptions()
+        {
+            var sut = new TransactionScopeFactory();
+
+            var options = new TransactionScopeOptions();
+
+            using (var transaction = sut.CreateTransactionScope(options))
             {
                 transaction.Complete();
             }

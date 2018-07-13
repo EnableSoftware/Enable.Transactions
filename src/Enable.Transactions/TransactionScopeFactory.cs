@@ -6,14 +6,11 @@ namespace Enable.Transactions
     public class TransactionScopeFactory : ITransactionScopeFactory
     {
         public ITransactionScope CreateTransactionScope(
-            TransactionScopeOption scopeOption = TransactionScopeOption.Required,
-            TransactionScopeAsyncFlowOption asyncFlowOption = TransactionScopeAsyncFlowOption.Enabled)
+            TransactionScopeOptions scopeOptions = null)
         {
-            var options = default(TransactionOptions);
-            options.IsolationLevel = IsolationLevel.ReadCommitted;
-            options.Timeout = TransactionManager.DefaultTimeout;
+            scopeOptions = scopeOptions ?? new TransactionScopeOptions();
 
-            return new MockableTransactionScope(scopeOption, options, asyncFlowOption);
+            return new MockableTransactionScope(scopeOptions);
         }
     }
 }
