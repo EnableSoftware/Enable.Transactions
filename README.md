@@ -1,5 +1,7 @@
 # Enable.Transactions
 
+[![Build status](https://ci.appveyor.com/api/projects/status/cugq9vtwcfk2jnhj/branch/master?svg=true)](https://ci.appveyor.com/project/EnableSoftware/enable-transactions/branch/master)
+
 Sensible defaults for .NET transactions.
 
 Transactions in .NET provide a lot of awesomeness. However, the default
