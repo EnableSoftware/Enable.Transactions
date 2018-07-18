@@ -6,12 +6,13 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Authors>Enable · enable.com</Authors>
-    <Copyright>Copyright 2018</Copyright>
-    <Description>Sensible defaults for .NET transactions. </Description>
+    <Authors>EnableSoftware</Authors>
+    <Copyright>© Enable International, Ltd. All rights reserved.</Copyright>
+    <Description>Sensible defaults for .NET transactions.</Description>
     <PackageIconUrl>https://github.com/EnableSoftware.png</PackageIconUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/EnableSoftware/Enable.Transactions/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/EnableSoftware/Enable.Transactions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/EnableSoftware/Enable.Transactions</RepositoryUrl>
     <Version>0.1.0</Version>
   </PropertyGroup>
 
