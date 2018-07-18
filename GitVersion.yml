@@ -1,0 +1,4 @@
+mode: ContinuousDeployment
+tag-prefix: '[vV]'
+continuous-delivery-fallback-tag: alpha
+commit-message-incrementing: Disabled

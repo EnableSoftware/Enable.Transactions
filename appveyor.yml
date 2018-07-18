@@ -26,6 +26,7 @@ init:
 before_build:
   - cmd: dotnet --version
   - cmd: dotnet restore
+  - ps: gitversion /l console /output buildserver
 
 build:
   parallel: true
