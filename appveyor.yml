@@ -39,4 +39,10 @@ build:
 test:
   assemblies: '**\*.Tests.dll'
 
-deploy: off
+deploy:
+- provider: NuGet
+  api_key:
+    secure: T9JXaUUdjl13atv7UAAW1LHVYuoo0c/NmAMir4g/iw95Ohl3DXCz7e3WloQ+I/8x
+  on:
+    branch: master
+    appveyor_repo_tag: true
