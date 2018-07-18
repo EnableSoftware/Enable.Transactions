@@ -12,6 +12,7 @@
     <PackageIconUrl>https://github.com/EnableSoftware.png</PackageIconUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/EnableSoftware/Enable.Transactions/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/EnableSoftware/Enable.Transactions</PackageProjectUrl>
+    <PackageTags>C#;.NET;Transactions</PackageTags>
     <RepositoryUrl>https://github.com/EnableSoftware/Enable.Transactions</RepositoryUrl>
     <Version>0.1.0</Version>
   </PropertyGroup>
