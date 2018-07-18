@@ -21,7 +21,7 @@ nuget:
 dotnet_csproj:
   patch: true
   file: '**\*.csproj'
-  version: '{version}'
+  version: '$(GitVersion_SemVer)'
 
 init:
   - cmd: git config --global core.autocrlf true
