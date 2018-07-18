@@ -48,7 +48,7 @@ In the following example, we override the default timeout, increasing this to
 ```csharp
 var factory = new TransactionScopeFactory();
 
-var options = TransactionScopeOptions
+var options = new TransactionScopeOptions
 {
     ScopeTimeout = TimeSpan.FromMinutes(5)
 };
