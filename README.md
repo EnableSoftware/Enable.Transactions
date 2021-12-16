@@ -1,6 +1,6 @@
 # Enable.Transactions
 
-[![Build status](https://ci.appveyor.com/api/projects/status/cugq9vtwcfk2jnhj/branch/master?svg=true)](https://ci.appveyor.com/project/EnableSoftware/enable-transactions/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/cugq9vtwcfk2jnhj/branch/main?svg=true)](https://ci.appveyor.com/project/EnableSoftware/enable-transactions/branch/main)
 
 Sensible defaults for .NET transactions.
 
@@ -71,3 +71,4 @@ interface in turn implements the interface
 [`ITransactionScope`](src/Enable.Transactions/ITransactionScope.cs). This makes
 it a breeze to mock transactions in tests, and to use `TransactionScopeFactory`
 with your favourite Dependency Injection framework.
+
