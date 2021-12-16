@@ -10,7 +10,7 @@
     <Copyright>© Enable International, Ltd. All rights reserved.</Copyright>
     <Description>Sensible defaults for .NET transactions.</Description>
     <PackageIconUrl>https://github.com/EnableSoftware.png</PackageIconUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/EnableSoftware/Enable.Transactions/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/EnableSoftware/Enable.Transactions/main/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/EnableSoftware/Enable.Transactions</PackageProjectUrl>
     <PackageTags>C#;.NET;Transactions</PackageTags>
     <RepositoryUrl>https://github.com/EnableSoftware/Enable.Transactions</RepositoryUrl>
